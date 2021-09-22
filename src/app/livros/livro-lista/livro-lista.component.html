@@ -1,0 +1,16 @@
+<h3 class="title" *ngIf="books.length > 0">Lista de livros</h3>
+
+<mat-accordion>
+  <mat-expansion-panel *ngFor="let book of books">
+    <mat-expansion-panel-header class="list-title">{{ book.title }}</mat-expansion-panel-header>
+    <p><strong>ID:</strong> {{ book.id }}</p>
+    <p><strong>Autor:</strong> {{ book.author }}</p>
+    <p><strong>Número de páginas:</strong> {{ book.numberOfPages }}</p>
+  </mat-expansion-panel>
+</mat-accordion>
+
+<p class="mat-body-1 zero-array" *ngIf="books.length <= 0">
+  <mat-icon>
+    menu_book</mat-icon>
+  Nenhum livro foi cadastrado ainda.
+</p>

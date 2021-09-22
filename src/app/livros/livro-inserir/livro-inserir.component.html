@@ -1,0 +1,39 @@
+<h2 class="title">📚 Inserção de livro</h2>
+
+<form (submit)="onAddBook(bookForm)" #bookForm="ngForm">
+  <mat-form-field appearance="fill">
+    <mat-label>Titulo</mat-label>
+    <input matInput type="text" name="title" ngModel placeholder="Digite o titulo..." minlength="2" maxlength="180"
+      required>
+    <button *ngIf="true" matSuffix mat-icon-button>
+      <mat-icon>close</mat-icon>
+    </button>
+    <mat-error>Titulo deve ter pelo menos 2 caracteres</mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Autor</mat-label>
+    <input matInput type="text" name="author" ngModel placeholder="Digite o autor..." minlength="2" maxlength="180"
+      required>
+    <button *ngIf="true" matSuffix mat-icon-button>
+      <mat-icon>close</mat-icon>
+    </button>
+    <mat-error>Autor deve ter pelo menos 2 caracteres</mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Número de páginas</mat-label>
+    <input matInput type="text" name="numberOfPages" ngModel placeholder="Digite número de páginas..." required>
+    <button *ngIf="true" matSuffix mat-icon-button>
+      <mat-icon>close</mat-icon>
+    </button>
+    <mat-error>Número de páginas não pode ficar vazio.</mat-error>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">
+    <mat-icon>
+      bookmark_add
+    </mat-icon>
+    Cadastrar
+  </button>
+</form>
