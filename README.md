@@ -4,6 +4,7 @@ Livros - Atividade MEAN 03
 </h1>
 
 * Nessa atividade utilizamos o **template-driven-form**
+**Aplicação sem a utilização do back-end**
 
 ## 🚀 Tecnologias
 
@@ -11,10 +12,6 @@ Livros - Atividade MEAN 03
 <img src="https://cdn.svgporn.com/logos/typescript-icon.svg" alt="typescript" width="30" height="30" style="margin-left: 5px;"/>
 <img src="https://cdn.svgporn.com/logos/angular-icon.svg" alt="angular" width="30" height="30" style="margin-left: 5px;"/>
 <img src="https://cdn.svgporn.com/logos/material-ui.svg" alt="materialdesign" width="30" height="30" style="margin-left: 5px;"/>
-<img src="https://cdn.svgporn.com/logos/nodejs-icon.svg" alt="nodejs" width="30" height="30" style="margin-left: 5px;"/>
-<img src="https://cdn.svgporn.com/logos/javascript.svg" alt="javascript" width="30" height="30" style="margin-left: 5px;"/>
-<img src="https://cdn.svgporn.com/logos/express.svg" alt="express" width="30" height="30" style="margin-left: 5px;"/>
-<img src="https://cdn.svgporn.com/logos/nodemon.svg" alt="nodemon" width="30" height="30" style="margin-left: 5px;"/>
 </p>
 
 ## ✅ Demostração
