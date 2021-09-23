@@ -3,7 +3,7 @@ Livros - Atividade MEAN 03
 <img src="https://cdn.svgporn.com/logos/angular.svg" alt="typescript" width="110" height="35"/> +<img src="https://cdn.svgporn.com/logos/nodejs.svg" alt="typescript" width="110" height="35"/>
 </h1>
 
-* Nessa atividade utilizamos o **template-driven-form**
+* Nessa atividade utilizamos o **template-driven-form**, fizemos a comunicação com nosso **back-end**.
 
 ## 🚀 Tecnologias
 

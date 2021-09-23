@@ -3,7 +3,7 @@
 <mat-accordion>
   <mat-expansion-panel *ngFor="let book of books">
     <mat-expansion-panel-header class="list-title">{{ book.title }}</mat-expansion-panel-header>
-    <p><strong>ID:</strong> {{ book.id }}</p>
+    <p *ngIf="book.id"><strong>ID:</strong> {{ book.id }}</p>
     <p><strong>Autor:</strong> {{ book.author }}</p>
     <p><strong>Número de páginas:</strong> {{ book.numberOfPages }}</p>
   </mat-expansion-panel>

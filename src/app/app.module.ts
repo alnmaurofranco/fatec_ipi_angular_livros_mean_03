@@ -15,12 +15,19 @@ import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import { LivroInserirComponent } from './livros/livro-inserir/livro-inserir.component';
 import { LivroListaComponent } from './livros/livro-lista/livro-lista.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [AppComponent, CabecalhoComponent, LivroInserirComponent, LivroListaComponent],
+  declarations: [
+    AppComponent,
+    CabecalhoComponent,
+    LivroInserirComponent,
+    LivroListaComponent,
+  ],
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     MatInputModule,
     MatIconModule,
