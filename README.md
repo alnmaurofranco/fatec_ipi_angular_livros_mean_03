@@ -4,6 +4,7 @@ Livros - Atividade MEAN 03
 </h1>
 
 * Nessa atividade utilizamos o **template-driven-form**, fizemos a comunicação com nosso **back-end**.
+* Finished
 
 ## 🚀 Tecnologias
 
